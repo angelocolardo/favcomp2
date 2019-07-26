@@ -13,4 +13,6 @@ export class AppComponent {
     likesCount: 10,
     isLiked: true
   }
+
+  viewMode = 'first'
 }
