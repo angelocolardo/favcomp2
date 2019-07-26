@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'favcomp2';
+
+  liked = {
+    body: '...',
+    likesCount: 10,
+    isLiked: true
+  }
 }
